@@ -1,0 +1,14 @@
+.cooperation {
+    padding: 125px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__cards {
+        min-height: 520px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}

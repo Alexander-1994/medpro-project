@@ -1,0 +1,24 @@
+.forms {
+    padding: 54px 38px 52px 48px;
+    background: linear-gradient(180deg, #FCFCFC 0%, #F7F7F7 100%);
+    width: 474px;
+    min-height: 587px;
+    position: relative;
+    input {
+        padding: 0 13px;
+        width: 388px;
+        height: 53px;
+        border: 2px solid #E2E2E2;
+        margin-bottom: 37px;
+        &:first-child {
+            margin-top: 46px;
+        }
+    }
+    .error {                                               
+        margin-bottom: 15px;
+        border: 1px solid $col_2;
+    }
+    label.error {                    
+        border: none;
+    }
+}

@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Asap';
+  src: url('../fonts/Asap-Medium.eot');
+  src: url('../fonts/Asap-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Asap-Medium.woff2') format('woff2'),
+      url('../fonts/Asap-Medium.woff') format('woff'),
+      url('../fonts/Asap-Medium.ttf') format('truetype'),
+      url('../fonts/Asap-Medium.svg#Asap-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Asap';
+  src: url('../fonts/Asap-Bold.eot');
+  src: url('../fonts/Asap-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Asap-Bold.woff2') format('woff2'),
+      url('../fonts/Asap-Bold.woff') format('woff'),
+      url('../fonts/Asap-Bold.ttf') format('truetype'),
+      url('../fonts/Asap-Bold.svg#Asap-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Asap';
+  src: url('../fonts/Asap-SemiBold.eot');
+  src: url('../fonts/Asap-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Asap-SemiBold.woff2') format('woff2'),
+      url('../fonts/Asap-SemiBold.woff') format('woff'),
+      url('../fonts/Asap-SemiBold.ttf') format('truetype'),
+      url('../fonts/Asap-SemiBold.svg#Asap-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Asap';
+  src: url('../fonts/Asap-Regular.eot');
+  src: url('../fonts/Asap-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Asap-Regular.woff2') format('woff2'),
+      url('../fonts/Asap-Regular.woff') format('woff'),
+      url('../fonts/Asap-Regular.ttf') format('truetype'),
+      url('../fonts/Asap-Regular.svg#Asap-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?yn7ei5');
+  src:  url('../fonts/icomoon.eot?yn7ei5#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?yn7ei5') format('truetype'),
+    url('../fonts/icomoon.woff?yn7ei5') format('woff'),
+    url('../fonts/icomoon.svg?yn7ei5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-world:before {
+  content: "\e901";
+}
+.icon-globe:before {
+  content: "\e901";
+}
+.icon-internet:before {
+  content: "\e901";
+}
+.icon-network:before {
+  content: "\e901";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-shield:before {
+  content: "\e9b4";
+}
+.icon-link1:before {
+  content: "\e9cb";
+}
+.icon-mail2:before {
+  content: "\ea84";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}

@@ -1,0 +1,27 @@
+.promo {
+    padding-top: 85px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__col-one {
+        width: 770px;
+    }
+    &__img {
+        margin-top: 57px;
+        width: 100%;
+    }
+    &__descr {
+        margin-top: 38px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 29px;
+        color: #000000;
+    }
+    &__col-two {
+        width: 320px;
+    }
+    &__cards {
+        margin-top: 57px;
+    }
+}

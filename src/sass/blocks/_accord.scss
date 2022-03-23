@@ -1,0 +1,23 @@
+.accord {
+    margin-top: 50px;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    &__img {
+        width: 160px;
+        height: 160px;
+        img {
+            width: 100%;
+        }
+    }
+    &__descr {
+        padding: 15px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__text {
+        margin-bottom: 19px;
+    }
+}

@@ -1,0 +1,33 @@
+.box {
+    width: 380px;
+    height: 196px;
+    padding-top: 40px;
+    padding-left: 72px;
+    background: #5F5F5F;
+    position: relative; 
+    span {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+        font-size: 25px;
+        color: $col-1;
+    }
+    &:nth-child(2) {
+        background: #6C6C6C;
+    }
+    &:nth-child(3) {
+        background: #7B7B7B;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+        color: $col-1;
+        margin-bottom: 15px;
+    }
+    &__contact {
+        font-weight: 400;
+        font-size: 16px;
+        color: $col-1;
+    }
+}

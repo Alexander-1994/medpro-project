@@ -1,0 +1,40 @@
+.card {
+    position: relative;
+    padding: 45px 16px 44px 20px;
+    width: inherit;
+    height: 244px;
+    background: linear-gradient(180deg, #F8F8F8 0%, #F7F7F7 100%);
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+        color: $col_2;
+        margin-bottom: 17px;
+    }
+    &__icon {
+        position: absolute;
+        top: 45px;
+        right: 10px;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        span {
+            font-size: 25px;
+            color: $col_2;
+        }
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #000000;
+        margin-bottom: 17px;
+    }
+    &:nth-child(2) {
+        background: linear-gradient(180deg, #F3F3F3 2.58%, #F3F3F3 100%);
+    }
+    &:nth-child(3) {
+        background: linear-gradient(180deg, #FCFCFC 0%, #F7F7F7 100%);
+    }
+}

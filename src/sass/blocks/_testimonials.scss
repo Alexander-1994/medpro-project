@@ -1,0 +1,46 @@
+.testimonials {
+    padding: 147px 0;
+    min-height: 650px;
+    background-color: $col_2;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__window {
+        width: 764px;
+        min-height: 356px;
+        background-color: $col_1;
+        padding: 75px 45px 82px 59px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 20px;
+    }
+    &__text {
+        margin-top: 17px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 29px;
+    }
+    &__name {
+        margin-top: 55px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    &__descr {
+        margin-top: 92px;
+        font-weight: 400;
+        font-size: 28px;
+        color: $col_1;
+        line-height: 32px;
+        span {
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 73px
+        }
+        a {
+            color: $col_1;
+        }
+    }
+}

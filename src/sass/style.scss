@@ -1,0 +1,42 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/bootstrap.min';
+@import 'libs/animate.min';
+
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/animations';
+
+* {
+    font-family: 'Asap';
+    a {
+        text-decoration: none;
+    }
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/social';
+@import 'blocks/email';
+@import 'blocks/carousel';
+@import 'blocks/button';
+@import 'blocks/promo';
+@import 'blocks/title';
+@import 'blocks/card';
+@import 'blocks/link';
+@import 'blocks/advantage';
+@import 'blocks/accord';
+@import 'blocks/testimonials';
+@import 'blocks/cooperation';
+@import 'blocks/card-2';
+@import 'blocks/forms';
+@import 'blocks/footer';
+@import 'blocks/box';
+@import 'blocks/modal';
+@import 'blocks/hamburger';
+@import 'blocks/medpro-logo';
+
+@import 'base/media';

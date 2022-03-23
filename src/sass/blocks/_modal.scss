@@ -1,0 +1,43 @@
+.blackout {                                                  
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.56);
+    display: none;                                    
+}
+.modal-window {
+    position: absolute;                                     
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);                     
+    width: 380px;
+    min-height: 143px;
+    background-color: #F2F2F2;
+    border: 2px solid $col_2;
+    border-radius: 15px;
+    padding: 25px;
+    &__close {                                             
+        position: absolute;
+        top: 0;
+        right: -30px;
+        font-size: 40px;
+        line-height: 21px;
+        font-weight: 700;
+        color: black;
+        cursor: pointer;
+        opacity: 0.7;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 20px;
+        color: #595959;
+    }
+}
+#ok {
+    display: none;
+}
